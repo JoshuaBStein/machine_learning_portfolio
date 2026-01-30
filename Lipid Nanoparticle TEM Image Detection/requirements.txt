@@ -1,0 +1,13 @@
+# Core ML Framework
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision
+
+# Image Processing & Math
+numpy
+opencv-python
+scipy
+pyyaml
+
+# Utilities
+argparse
