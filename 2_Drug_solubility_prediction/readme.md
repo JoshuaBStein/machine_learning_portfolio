@@ -104,11 +104,6 @@ git clone [https://github.com/your-username/chembl-kinase-qsar-pipeline.git](htt
 
 ## 🔮 Future Improvements
 
-* **Feature Expansion:** Integrating Morgan Fingerprints (ECFP4) for deeper structural analysis.
 * **Model Comparison:** Benchmarking Decision Trees against Random Forests and XGBoost.
 * **Deployment:** wrapping the model in a Streamlit app for real-time LogP prediction of user-inputted SMILES.
 
-
-```
-
-```
