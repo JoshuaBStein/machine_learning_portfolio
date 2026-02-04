@@ -1,11 +1,4 @@
-Here is the complete `README.md` file content. You can copy the code block below directly into your GitHub file editor.
-
-```markdown
 # ChEMBL Kinase QSAR Pipeline
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ## 📌 Project Overview
 
@@ -73,8 +66,8 @@ The model was evaluated on unseen test data after hyperparameter tuning.
 
 | Metric | Score | Description |
 | --- | --- | --- |
-| **RMSE** | *[Insert Your RMSE]* | Average deviation between predicted and actual LogP. |
-| **R² Score** | *[Insert Your R2]* | Variance explained by the model (max 1.0). |
+| **RMSE** | 0.41 | Average deviation between predicted and actual LogP. |
+| **R² Score** | 0.87 | Variance explained by the model (max 1.0). |
 
 *Visualizations of the hyperparameter stability landscape can be found in the `Model_training` notebook.*
 
@@ -115,14 +108,6 @@ git clone [https://github.com/your-username/chembl-kinase-qsar-pipeline.git](htt
 * **Model Comparison:** Benchmarking Decision Trees against Random Forests and XGBoost.
 * **Deployment:** wrapping the model in a Streamlit app for real-time LogP prediction of user-inputted SMILES.
 
----
-
-## 📝 Author
-
-**Joshua Stein**
-
-* [LinkedIn Profile]((https://www.linkedin.com/in/joshua-stein-3401b7129/))
-* [Portfolio Link]((https://github.com/JoshuaBStein/machine_learning_portfolio))
 
 ```
 
